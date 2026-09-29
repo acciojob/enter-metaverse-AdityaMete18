@@ -1,5 +1,8 @@
 //your JS code here. If required.
-let changeText = '<h1>Entered Metaverse</h1>';
-function change() { 
-	document.getElementById("status").innerHTML= changeText;
+function change() {
+    let heading = document.createElement("h1");
+
+	heading.innertext = "Entered Metaverse";
+
+	document.getElementById("status").replaceBy(heading);
 }
