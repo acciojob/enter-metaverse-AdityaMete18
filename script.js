@@ -4,5 +4,5 @@ function change() {
 
 	heading.innertext = "Entered Metaverse";
 
-	document.getElementById("status").replaceBy(heading);
+	document.getElementById("status").replaceWith(heading);
 }
